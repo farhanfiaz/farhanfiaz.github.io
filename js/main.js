@@ -233,7 +233,7 @@ $(function () {
 });
 
 $(function() {
-$('body').append('<div class="fix-bts" style=" position: fixed; top: 50vh; right: -74px; z-index: 1111; transition: all 0.2s ease 0s;"> <a target="blank" title="Fiverr Profile" href="#" class="fix-btn brand" style=" position: relative; margin-bottom: 5px; padding: 0 30px; display: block; height: 38px; line-height: 38px; background: #fff; text-transform: uppercase; font-size: 11px; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); font-weight: 700; text-decoration: none; color: #000; ">Fiverr Profile</a></div>');
+$('body').append('<div class="fix-bts" style=" position: fixed; top: 50vh; right: -74px; z-index: 1111; transition: all 0.2s ease 0s;"> <a target="blank" title="Fiverr Profile" href="https://www.fiverr.com/farhanfiaz" class="fix-btn brand" style=" position: relative; margin-bottom: 5px; padding: 0 30px; display: block; height: 38px; line-height: 38px; background: #fff; text-transform: uppercase; font-size: 11px; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); font-weight: 700; text-decoration: none; color: #000; ">Fiverr Profile</a></div>');
 $('.fix-bts').on('mouseenter', function() {
 $('.fix-bts').css({'right':'0'});
 });
